@@ -1,0 +1,4 @@
+#!/bin/zsh
+
+echo "This script will call neuroglancer script."
+sh ./neuroglancer -f watershed.zarr -d watershed markers plasma_membrane mito golgi er NE nucleus vesicle MVB lysosome LD

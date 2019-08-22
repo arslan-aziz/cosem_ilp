@@ -1,0 +1,4 @@
+#!/bin/zsh
+
+echo "This script will call neuroglancer script."
+sh ./neuroglancer -f final_mito.zarr -d processed_components watershed mito_dist seeds max_evidence_map

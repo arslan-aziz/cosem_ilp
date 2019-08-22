@@ -1,0 +1,4 @@
+#!/bin/zsh
+
+echo "This script will call neuroglancer script."
+sh ./neuroglancer -f watershed.zarr -d watershed watershed_tot distance_map mito_DNA mito_membrane mito_lumen
